@@ -1,0 +1,23 @@
+{
+  "name": "@romprzy/my-vue-ui",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "dist/my-vue-ui.min.cjs",
+  "module": "dist/my-vue-ui.min.mjs",
+  "files": ["dist/*"],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "vue": "v3.4.38"
+  },
+  "devDependencies": {
+    "vue": "v3.4.38",
+    "rollup": "^3.25.1",
+    "rollup-plugin-vue": "^6.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "@rollup/plugin-terser": "^0.4.3"
+  }
+}
